@@ -8,6 +8,12 @@
         <li><a href="<%=request.getContextPath()%>/admin/payrates/list.html"><i class="menu-icon icon-inbox"></i>Pay Rates </a></li>
         <li><a href="task.html"><i class="menu-icon icon-tasks"></i>Tasks <b class="label orange pull-right">
                     19</b> </a></li>
+                 <li>
+    <a href="<%=request.getContextPath()%>/sso/gotoHr.html" target="_blank">
+        <i class="menu-icon icon-share"></i>
+        SSO To HR
+    </a>
+</li>   
     </ul>
     <!--/.widget-nav-->
 
